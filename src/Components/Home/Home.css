@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.countryContainer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+    grid-gap: 10px;
+}
+.box{
+    display: grid;
+}
+.resultBox{
+    display: grid;
+    grid-gap: 10px;
+    margin: 0.5rem;
+    align-items: center;
+    justify-items: center;
+    left: 50%;
+}
+.resultContainer{
+    min-width: 400px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: solid 2px rgb(213, 213, 213);
+    grid-gap: 0;
+}
+p{
+    margin: 0;
+}
+input{
+    width: 370px;
+    height: 30px;
+    padding: 2px;
+}
+.img{
+    width: 80px;
+}
+.infoBox{
+    text-align: start;
+}
+.btnDelete{
+    background-color: rgb(252, 58, 58);
+    border: 0;
+    color: white;
+    width: 30px;
+    height: 20px;
+    font-weight: 600;
+}
+.addBtn{
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(101, 152, 25);
+    border: 0;
+}
